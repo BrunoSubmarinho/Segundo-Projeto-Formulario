@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario BMS</title>
+</head>
+
+<body>
+    <div class="Formu">
+        <h2><b>Preencha o formulario Abaixo</b></h2>
+
+        <div class="InputBox">
+            <label for="Nome">Nome</label>
+            <input type="text" id="Nome" name="Nome" required>
+        </div>
+        <br>
+        <div class="InputBox">
+            <label for="Email">E-mail</label>
+            <input type="email" name="Email" id="Email" required>
+        </div>
+        <br>
+        <div class="InputBox">
+            <label for="idade">Idade</label>
+            <select id="idade" name="idade">
+                <option value="menos18">Menos de 18 Anos </option>
+                <option value="mais18">Mais de 18 Anos </option>
+                <option value="18-30">Entre 18 e 30 Anos </option>
+            </select>
+        </div>
+        <br>
+        <div class="InputBox">
+            <label for="numero">Numero</label>
+            <input type="number" name="numero" id="numero" required>
+        </div>
+        <br>
+        <div class="InputBox">
+            <label for="Consi">Profissionalmente, você se considera?</label>
+            <select id="Consi" name="Consi">
+                <option value="inicio">Inicio de Carreira ou Iniciante </option>
+                <option value="Inter">Intermediario ou Com Experiemcia Moderada</option>
+                <option value="Exp">Experiente ou Especialista </option>
+            </select>
+        </div>
+        <br>
+        <div class="InputBox">
+            <label for="Obje">Qual o seu objetivo?</label>
+            <select id="Obje" name="Obje">
+                <option value="ObjProf">Objetivos Profissionais</option>
+                <option value="DesenvolvimentoPessoal">Desenvolvimento Pessoal</option>
+                <option value="Contribuirtech">Contribuir Para a Empresa/Organização</option>
+                <option value="EquilibrioVidaProfPessoal">Equilibrio entre Vida Profissional e Pessoal</option>
+            </select>
+        </div>
+        <br>
+        <div class="ButtonBox">
+            <button type="submit">Enviar</button>
+        </div>
+    </div>
+</body>
+
+</html>
